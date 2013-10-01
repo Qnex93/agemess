@@ -1,7 +1,8 @@
+import sun.nio.ch.ThreadPool;
+
 import java.io.IOException;
-import java.net.InetAddress;
 import java.net.ServerSocket;
-import java.net.Socket;
+
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,7 +16,6 @@ public class Server {
     private boolean isRunning;
     private int port;
     private ServerSocket serverSocket;
-    private Thread threadListener;
 
     private Server(int port) {
         this.port = port;
@@ -30,9 +30,9 @@ public class Server {
 
     public void run() throws Exception {
         try{
-            if (!isRunning){
+            if (!isRunning) {
                 serverSocket = new ServerSocket(port);
-                threadListener = new Thread(new Runnable() {
+                Thread threadListener = new Thread(new Runnable() {
                     public void run() {
                         try {
                             keepListening();
@@ -58,11 +58,11 @@ public class Server {
     }
 
     public boolean isConnectedClient(){
-        return (serverSocket == null) ? false : serverSocket.isBound();
+        return (serverSocket != null) && (isRunning);
     }
 
     public boolean isCreated(){
-        return (instance == null ) ? false : true;
+        return (instance != null);
     }
 
     private void keepListening() throws IOException {
