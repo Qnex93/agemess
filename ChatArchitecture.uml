@@ -55,6 +55,76 @@
 <XPD:REF name="Diagram">CfJyQ5nB+EmM4YgFm3miDQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:ATTR name="#OwnedElements" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="v9x3EkhsGU2QgXIVhipEfgAA">
+<XPD:ATTR name="Name" type="string">Server</XPD:ATTR>
+<XPD:REF name="Namespace">q7AAKwZotkGYViJaWEMjMwAA</XPD:REF>
+<XPD:ATTR name="#Attributes" type="integer">16</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="1MDc5Pu+HE6+h2MoCnP+qQAA">
+<XPD:ATTR name="Name" type="string">Attribute1</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="8iG7XO+1w0WB+rUX9UdG5gAA">
+<XPD:ATTR name="Name" type="string">Attribute2</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="UP+mDcj0ukCO3zPd1FxzlQAA">
+<XPD:ATTR name="Name" type="string">Attribute3</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="6ulAklnE5EiKOqhchwFdYgAA">
+<XPD:ATTR name="Name" type="string">Attribute4</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="i9hipnQboEGNk1aXWaNErwAA">
+<XPD:ATTR name="Name" type="string">Attribute5</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="50nUaezyuke9NLvTTwdGFgAA">
+<XPD:ATTR name="Name" type="string">Attribute6</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="QAoeWScTcUuuGMTZTK/8XgAA">
+<XPD:ATTR name="Name" type="string">Attribute7</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[7]" type="UMLAttribute" guid="r7sFLxWCVE+3p5ndlnGMAwAA">
+<XPD:ATTR name="Name" type="string">Attribute8</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[8]" type="UMLAttribute" guid="a+u6k/RIWkSO2a4paWbjZQAA">
+<XPD:ATTR name="Name" type="string">Attribute9</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[9]" type="UMLAttribute" guid="rF4yI+ENCU+wZF+iKkP7XQAA">
+<XPD:ATTR name="Name" type="string">Attribute10</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[10]" type="UMLAttribute" guid="GO2K8+NNBE+6zFUgDDWuaAAA">
+<XPD:ATTR name="Name" type="string">Attribute11</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[11]" type="UMLAttribute" guid="3Fe7ULiDfUmUnc0e1QK3qAAA">
+<XPD:ATTR name="Name" type="string">Attribute12</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[12]" type="UMLAttribute" guid="03/cfGxvSEisgspJJRLYHAAA">
+<XPD:ATTR name="Name" type="string">Attribute13</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[13]" type="UMLAttribute" guid="ttoRt0hNGUe/BUL8422OQgAA">
+<XPD:ATTR name="Name" type="string">Attribute14</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[14]" type="UMLAttribute" guid="Kq04k9hZOU2gXl1eGLxSVAAA">
+<XPD:ATTR name="Name" type="string">Attribute15</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[15]" type="UMLAttribute" guid="oV15EVF3YUaB40fwZyTBmQAA">
+<XPD:ATTR name="Name" type="string">Attribute16</XPD:ATTR>
+<XPD:REF name="Owner">v9x3EkhsGU2QgXIVhipEfgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[3]" type="UMLModel" guid="i0z6AzjQu0S7cRQ0DaGE/AAA">
 <XPD:ATTR name="Name" type="string">Implementation Model</XPD:ATTR>
