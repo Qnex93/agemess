@@ -9,6 +9,5 @@ public class Program {
     public static void main(String[] args) throws Exception {
         Server server = Server.create(7777);
         server.run();
-        boolean test = server.isConnectedClient();
     }
 }
