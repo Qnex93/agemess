@@ -1,10 +1,4 @@
-/**
- * Created with IntelliJ IDEA.
- * User: Qnex
- * Date: 01.10.13
- * Time: 19:12
- * To change this template use File | Settings | File Templates.
- */
+
 public class User {
     private int userId;
     private String userName;
