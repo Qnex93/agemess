@@ -7,7 +7,7 @@
     </list>
     <ignored path="agemess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381232660852" ignored="false" />
+    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381232683725" ignored="false" />
     <file path="/Program.java" changelist="008688d6-d4bf-4ecd-a4d5-685048f70e98" time="1380630526965" ignored="false" />
     <file path="/fragment.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381065923797" ignored="false" />
     <file path="/Server.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381149493184" ignored="false" />
@@ -478,11 +478,15 @@
       <created>1381232681048</created>
       <updated>1381232681048</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add new class">
+      <created>1381232685995</created>
+      <updated>1381232685995</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1598" height="858" extended-state="0" />
+    <frame x="1" y="1" width="1598" height="858" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
