@@ -3,21 +3,11 @@
   <component name="ChangeListManager">
     <list id="008688d6-d4bf-4ecd-a4d5-685048f70e98" name="Default" comment="" />
     <list default="true" id="d5ca816f-0286-41d9-bc43-0e9cc745fe30" name="Rejected commit: Default" comment="add new class">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Communication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Session.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThreadRunnable.java" />
-      <change type="DELETED" beforePath="C:\Users\Qnex\Desktop\agemess\ChatArchitecture.uml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Qnex\Desktop\agemess\src\AuthorizationManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Qnex\Desktop\agemess\src\RegistrationController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Qnex\Desktop\agemess\src\Server.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Program.java" afterPath="$PROJECT_DIR$/src/Program.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/User.java" afterPath="$PROJECT_DIR$/src/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserManager.java" afterPath="$PROJECT_DIR$/src/UserManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="agemess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381222327528" ignored="false" />
+    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381232660852" ignored="false" />
     <file path="/Program.java" changelist="008688d6-d4bf-4ecd-a4d5-685048f70e98" time="1380630526965" ignored="false" />
     <file path="/fragment.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381065923797" ignored="false" />
     <file path="/Server.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381149493184" ignored="false" />
@@ -484,7 +474,11 @@
       <created>1380649350090</created>
       <updated>1380649350090</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add new class">
+      <created>1381232681048</created>
+      <updated>1381232681048</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -638,7 +632,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doServer.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" />
+        <state line="6" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Session.java">
