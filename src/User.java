@@ -7,6 +7,12 @@ public class User {
     private String lastName;
     private String email;
 
+    public enum Status{
+        offline,
+        busy,
+        online
+    }
+
     public int getUserId() {
         return userId;
     }

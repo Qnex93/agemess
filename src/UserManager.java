@@ -1,7 +1,7 @@
 import java.util.List;
 
 public class UserManager {
-    private List<User> users;
+    private List<User> subscribers;
 
     public void addNewUser(){
 

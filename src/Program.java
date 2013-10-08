@@ -7,7 +7,7 @@
  */
 public class Program {
     public static void main(String[] args) throws Exception {
-        Server server = Server.create(7777);
+        Communication server = Communication.create(777);
         server.run();
     }
 }
