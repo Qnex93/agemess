@@ -12,10 +12,10 @@ import java.net.Socket;
  * Time: 10:54
  * To change this template use File | Settings | File Templates.
  */
-public class ThreadRunnable implements Runnable {
+public class Worker implements Runnable {
     private Socket client;
 
-    public ThreadRunnable(Socket client) {
+    public Worker(Socket client) {
         this.client = client;
         Thread threadListener = new Thread(this);
         threadListener.start();
