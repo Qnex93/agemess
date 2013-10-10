@@ -3,17 +3,13 @@
   <component name="ChangeListManager">
     <list id="008688d6-d4bf-4ecd-a4d5-685048f70e98" name="Default" comment="" />
     <list default="true" id="d5ca816f-0286-41d9-bc43-0e9cc745fe30" name="Rejected commit: Default" comment="add new class">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/agemess/client/ClientWorker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/agemess/client/CommandType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/agemess/client/Communication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/agemess/client/Program.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/agemess/ServerWorker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/Communication.java" afterPath="$PROJECT_DIR$/src/com/agemess/Communication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="agemess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381438036492" ignored="false" />
+    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381438084408" ignored="false" />
     <file path="/Program.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381427185769" ignored="false" />
     <file path="/fragment.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381437322229" ignored="false" />
     <file path="/Server.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381149493184" ignored="false" />
@@ -594,7 +590,11 @@
       <created>1381438046825</created>
       <updated>1381438046825</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add client classes">
+      <created>1381438091973</created>
+      <updated>1381438091973</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -670,7 +670,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="change name" />
+    <option name="LAST_COMMIT_MESSAGE" value="add client classes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -697,6 +697,7 @@
     <MESSAGE value="small changes in the names" />
     <MESSAGE value="Create thread class" />
     <MESSAGE value="change name" />
+    <MESSAGE value="add client classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
