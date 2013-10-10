@@ -39,7 +39,7 @@ public class Communication {
                     client = server.accept();
                     System.out.println("Client is connected!");
                     numberOfOnline++;
-                    new ThreadRunnable(client);
+                    new Worker(client);
                     System.out.println("Now, " + numberOfOnline + " clients is online");
                 }
             }
