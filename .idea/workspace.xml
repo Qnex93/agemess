@@ -8,13 +8,12 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/agemess/client/Communication.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/agemess/client/Program.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/agemess/ServerWorker.java" />
-      <change type="DELETED" beforePath="C:\Users\Qnex\Desktop\agemess\src\com\agemess\Worker.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/Communication.java" afterPath="$PROJECT_DIR$/src/com/agemess/Communication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="agemess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381426169571" ignored="false" />
+    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381438036492" ignored="false" />
     <file path="/Program.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381427185769" ignored="false" />
     <file path="/fragment.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381437322229" ignored="false" />
     <file path="/Server.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381149493184" ignored="false" />
@@ -591,7 +590,11 @@
       <created>1381426176576</created>
       <updated>1381426176576</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="change name">
+      <created>1381438046825</created>
+      <updated>1381438046825</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -667,7 +670,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create thread class" />
+    <option name="LAST_COMMIT_MESSAGE" value="change name" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -693,6 +696,7 @@
     <MESSAGE value="add enum, which contents commands" />
     <MESSAGE value="small changes in the names" />
     <MESSAGE value="Create thread class" />
+    <MESSAGE value="change name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
