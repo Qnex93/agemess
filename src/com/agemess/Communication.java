@@ -37,7 +37,7 @@ public class Communication {
                 System.out.println("Waiting clients...");
                 while (true){
                     client = server.accept();
-                    new ServerWorker(client);
+                    new Processor(client);
                     System.out.println("Client is connected!");
                     numberOfOnline++;
                     System.out.println("Now, " + numberOfOnline + " clients is online");

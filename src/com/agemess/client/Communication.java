@@ -2,7 +2,6 @@ package com.agemess.client;
 
 import java.io.IOException;
 import java.net.InetAddress;
-import java.net.InterfaceAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
@@ -20,11 +19,19 @@ public class Communication {
     private boolean isRunning;
     private Socket server;
 
-    public Communication(InetAddress ip, int port) throws UnknownHostException {
+    public static Communication create(InetAddress ip, int port) throws UnknownHostException, InterruptedException {
+        if (instance == null){
+            instance = new Communication(ip, port);
+        }
+        return instance;
+    }
+    private Communication(InetAddress ip, int port) throws UnknownHostException, InterruptedException {
         this.port = port;
         this.ip = ip;
         try {
-            Socket client = new Socket(ip, port);
+            Socket server = new Socket(ip, port);
+            new Processor(server);
+            System.out.println("Client connected to server");
         } catch (IOException e) {
             System.out.println("Client doesn't connect!");
         }

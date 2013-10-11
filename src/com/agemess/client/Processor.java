@@ -1,31 +1,41 @@
-package com.agemess;
-
-import com.agemess.Communication;
+package com.agemess.client;
 
 import java.io.*;
 import java.net.Socket;
+import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
  * User: Qnex
- * Date: 07.10.13
- * Time: 10:54
+ * Date: 10.10.13
+ * Time: 23:09
  * To change this template use File | Settings | File Templates.
  */
-public class ServerWorker implements Runnable {
-    private Socket client;
+public class Processor implements Runnable{
+    private Socket server;
     private BufferedReader reader;
     private PrintWriter writer;
 
-    public ServerWorker(Socket client) {
+    public Processor(Socket server) {
+        this.server = server;
         try {
-            this.client = client;
-            InputStream inStream = client.getInputStream();
+            InputStream inStream = this.server.getInputStream();
             reader = new BufferedReader(new InputStreamReader(inStream));
-            OutputStream outStream = client.getOutputStream();
+            OutputStream outStream = this.server.getOutputStream();
             writer = new PrintWriter(outStream, true);
             Thread threadListener = new Thread(this);
             threadListener.start();
+            final Processor proc = this;
+            Thread sendThread = new Thread(new Runnable() {
+                public void run() {
+                    Scanner scanner = new Scanner(System.in);
+                    while (scanner.hasNext()) {
+                        proc.send(scanner.nextLine());
+                    }
+                }
+
+            });
+            sendThread.start();
         } catch (IOException e) {
             System.out.println("Error");
         }
@@ -40,13 +50,15 @@ public class ServerWorker implements Runnable {
         try {
             while ((s = reader.readLine()) != null) {
                 System.out.println(s);
-                writer.println(s);
             }
-            client.close();
+            server.close();
         } catch (IOException e) {
             System.out.println("Error");
         }
 
+    }
 
+    private void send(String msg) {
+        writer.println(msg);
     }
 }

@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="008688d6-d4bf-4ecd-a4d5-685048f70e98" name="Default" comment="" />
-    <list default="true" id="d5ca816f-0286-41d9-bc43-0e9cc745fe30" name="Rejected commit: Default" comment="add new class">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/agemess/ServerWorker.java" />
+    <list default="true" id="d5ca816f-0286-41d9-bc43-0e9cc745fe30" name="Rejected commit: Default" comment="nothing useful:)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MOVED" beforePath="C:\Users\Qnex\Desktop\agemess\src\com\agemess\ServerWorker.java" afterPath="$PROJECT_DIR$/src/com/agemess/Processor.java" />
+      <change type="MOVED" beforePath="C:\Users\Qnex\Desktop\agemess\src\com\agemess\client\ClientWorker.java" afterPath="$PROJECT_DIR$/src/com/agemess/client/Processor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/Communication.java" afterPath="$PROJECT_DIR$/src/com/agemess/Communication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/client/Communication.java" afterPath="$PROJECT_DIR$/src/com/agemess/client/Communication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/client/Program.java" afterPath="$PROJECT_DIR$/src/com/agemess/client/Program.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="agemess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381438084408" ignored="false" />
-    <file path="/Program.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381427185769" ignored="false" />
-    <file path="/fragment.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381437322229" ignored="false" />
+    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381482643935" ignored="false" />
+    <file path="/Program.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381487391784" ignored="false" />
+    <file path="/fragment.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381487743958" ignored="false" />
     <file path="/Server.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381149493184" ignored="false" />
-    <file path="/a.dummy" changelist="008688d6-d4bf-4ecd-a4d5-685048f70e98" time="1380631568060" ignored="false" />
+    <file path="/a.dummy" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381483489171" ignored="false" />
     <file path="/doServer.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1380639319350" ignored="false" />
     <file path="/RegistrationController.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1380643474460" ignored="false" />
     <file path="/UserManager.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1380707364079" ignored="false" />
@@ -25,9 +30,11 @@
     <file path="$USER_HOME$/IdeaProjects/TCPServer/src/SmpleServer.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381065828775" ignored="false" />
     <file path="/ThreadRunnable.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381236982485" ignored="false" />
     <file path="/CommandType.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381423787077" ignored="false" />
-    <file path="/Communication.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381437417520" ignored="false" />
+    <file path="/Communication.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381440342843" ignored="false" />
     <file path="/Worker.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381429210215" ignored="false" />
-    <file path="/ClientWorker.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381436970876" ignored="false" />
+    <file path="/ClientWorker.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381487177372" ignored="false" />
+    <file path="/ServerWorker.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381483043713" ignored="false" />
+    <file path="/Processor.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381489855788" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +100,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Communication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/agemess/Communication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="21" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Processor.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/agemess/Processor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="0.3328823">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Program.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/agemess/Program.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,62 +127,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Communication.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/agemess/Communication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="8" selection-start="1413" selection-end="1546" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Communication.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Communication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="5" selection-start="956" selection-end="956" vertical-scroll-proportion="0.8443843">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerWorker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/agemess/ServerWorker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="49" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Program.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="56" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientWorker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/agemess/client/ClientWorker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/agemess/client/CommandType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="12" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+            <state line="15" column="51" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Processor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Processor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="29" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#906#1178#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Communication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Communication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="32" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,22 +183,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Communication.java" />
-        <option value="$PROJECT_DIR$/src/ThreadRunnable.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/Program.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/Session.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/ThreadRunnable.java" />
         <option value="$PROJECT_DIR$/src/com/agemess/UserManager.java" />
         <option value="$PROJECT_DIR$/src/com/agemess/User.java" />
         <option value="$PROJECT_DIR$/src/com/agemess/CommandType.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/client/Program.java" />
         <option value="$PROJECT_DIR$/src/com/agemess/Worker.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/Communication.java" />
         <option value="$PROJECT_DIR$/src/com/agemess/ClientWorker.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/ServerWorker.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/client/ClientWorker.java" />
         <option value="$PROJECT_DIR$/src/com/agemess/client/CommandType.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/client/ClientWorker.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/ServerWorker.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/client/Handler.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/client/Proccesor.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/Handler.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/Communication.java" />
         <option value="$PROJECT_DIR$/src/com/agemess/client/Communication.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/client/Program.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/client/Processor.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/Processor.java" />
       </list>
     </option>
   </component>
@@ -238,7 +236,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,17 +297,27 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agemess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="224" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="224" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="228" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="224" />
@@ -326,16 +333,16 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -359,19 +366,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -400,6 +394,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -438,7 +445,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="agemess" type="Application" factoryName="Application">
+    <configuration default="false" name="agemess-server" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.agemess.Program" />
       <option name="VM_PARAMETERS" value="" />
@@ -485,7 +492,7 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.agemess" />
+      <item index="0" class="java.lang.String" itemvalue="Application.agemess-server" />
       <item index="1" class="java.lang.String" itemvalue="Application.agemess-client" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -594,7 +601,11 @@
       <created>1381438091973</created>
       <updated>1381438091973</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="nothing useful:)">
+      <created>1381438223121</created>
+      <updated>1381438223121</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -604,9 +615,10 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767624" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29144385" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2154047" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -619,12 +631,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.135625" sideWeight="0.6791444" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.135625" sideWeight="0.7845953" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3342246" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328877" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -670,7 +681,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add client classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="nothing useful:)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -698,6 +709,7 @@
     <MESSAGE value="Create thread class" />
     <MESSAGE value="change name" />
     <MESSAGE value="add client classes" />
+    <MESSAGE value="nothing useful:)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -750,26 +762,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/agemess/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="49" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/agemess/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="19" selection-start="92" selection-end="92" vertical-scroll-proportion="0.110957004">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/agemess/client/ClientWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,40 +778,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/agemess/client/CommandType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+        <state line="9" column="12" selection-start="192" selection-end="192" vertical-scroll-proportion="0.19485791">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/agemess/ServerWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="49" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="56" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/agemess/Communication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="8" selection-start="1413" selection-end="1546" vertical-scroll-proportion="0.0">
+        <state line="40" column="21" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Communication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="5" selection-start="956" selection-end="956" vertical-scroll-proportion="0.8443843">
+        <state line="21" column="32" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="29" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#906#1178#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="51" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/agemess/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="49" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/agemess/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="0.3328823">
+          <folding />
         </state>
       </provider>
     </entry>
