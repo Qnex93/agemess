@@ -31,7 +31,7 @@ public class Program {
             Communication client = Communication.create(ip, port);
             client.run();
         } catch (Exception e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
     }
 }
