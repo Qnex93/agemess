@@ -5,12 +5,11 @@
     <list default="true" id="d5ca816f-0286-41d9-bc43-0e9cc745fe30" name="Rejected commit: Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/agemess/Command.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/agemess/client/Command.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/client/Program.java" afterPath="$PROJECT_DIR$/src/com/agemess/client/Program.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="agemess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381755751386" ignored="false" />
+    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381778953379" ignored="false" />
     <file path="/Program.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381528856635" ignored="false" />
     <file path="/fragment.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381591968900" ignored="false" />
     <file path="/Server.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381149493184" ignored="false" />
@@ -640,7 +639,11 @@
       <created>1381755788684</created>
       <updated>1381755788684</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="nothing useful:)">
+      <created>1381778959795</created>
+      <updated>1381778959795</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
