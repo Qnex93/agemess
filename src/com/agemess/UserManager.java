@@ -3,8 +3,6 @@ package com.agemess;
 import java.util.List;
 
 public class UserManager {
-    private List<User> subscribers;
-
     public void addNewUser(){
 
     }
@@ -14,10 +12,6 @@ public class UserManager {
     }
 
     public void removeUser(){
-
-    }
-
-    public void logout(){
 
     }
 

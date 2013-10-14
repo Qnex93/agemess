@@ -1,5 +1,6 @@
 package com.agemess;
 
+import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -17,7 +18,7 @@ public class Communication {
     private int port;
     private ServerSocket server;
     private Socket client;
-    static int numberOfOnline = 0;
+
 
     private Communication(int port) {
         this.port = port;
@@ -31,27 +32,29 @@ public class Communication {
     }
 
     public void run() throws Exception {
+        if (!isRunning) {
+            listen();
+        }
+    }
+
+    private void listen() throws IOException {
         try{
-            if (!isRunning) {
-                server = new ServerSocket(port);
-                System.out.println("Waiting clients...");
-                while (true){
-                    client = server.accept();
-                    new Processor(client);
-                    System.out.println("Client is connected!");
-                    numberOfOnline++;
-                    System.out.println("Now, " + numberOfOnline + " clients is online");
-                }
+            server = new ServerSocket(port);
+            isRunning = true;
+            System.out.println("Server is start!");
+            System.out.println("Waiting clients...");
+            while (true) {
+                client = server.accept();
+                new Processor(client);
+                System.out.println("Client is connected!");
             }
 
         } catch (Exception e){
             System.out.println(e.toString());
         }
         finally {
-            server.close();
-            client.close();
+            closeConnection();
         }
-
     }
 
     public boolean isRunning(){
@@ -61,6 +64,12 @@ public class Communication {
     public boolean isCreated(){
         return (instance != null);
     }
+
+    private void closeConnection() throws IOException {
+        server.close();
+        client.close();
+    }
+
 
 
 

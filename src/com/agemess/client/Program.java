@@ -11,8 +11,27 @@ import java.net.UnknownHostException;
  * To change this template use File | Settings | File Templates.
  */
 public class Program {
-    public static void main(String[] args) throws UnknownHostException, InterruptedException {
-        InetAddress ip = InetAddress.getByName("127.0.0.1");
-        Communication client = Communication.create(ip, 777);
+    static InetAddress ip;
+    static int port;
+
+    public static void main(String[] args) {
+        try {
+            if (args.length == 0) {
+                ip = InetAddress.getByName("127.0.0.1");
+                port = 777;
+            }
+            if (args.length == 1) {
+                ip = InetAddress.getByName(args[0]);
+                port = 777;
+            }
+            if (args.length == 2) {
+                ip = InetAddress.getByName(args[0]);
+                port = Integer.parseInt(args[1]);
+            }
+            Communication client = Communication.create(ip, port);
+            client.run();
+        } catch (Exception e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
     }
 }

@@ -19,23 +19,27 @@ public class Communication {
     private boolean isRunning;
     private Socket server;
 
-    public static Communication create(InetAddress ip, int port) throws UnknownHostException, InterruptedException {
+    public static Communication create(InetAddress ip, int port) {
         if (instance == null){
             instance = new Communication(ip, port);
         }
         return instance;
     }
-    private Communication(InetAddress ip, int port) throws UnknownHostException, InterruptedException {
+
+    private Communication(InetAddress ip, int port) {
         this.port = port;
         this.ip = ip;
+    }
+
+    public void run() {
         try {
             Socket server = new Socket(ip, port);
             new Processor(server);
-            System.out.println("Client connected to server");
+            System.out.println("Connected to server.");
+            isRunning = true;
         } catch (IOException e) {
-            System.out.println("Client doesn't connect!");
+            System.out.println("Error! Doesn't connect.");
         }
-
     }
 
     public boolean isRunning(){

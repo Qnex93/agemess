@@ -12,16 +12,17 @@ import java.util.Scanner;
  * To change this template use File | Settings | File Templates.
  */
 public class Processor implements Runnable{
-    private Socket server;
+    private Socket socket;
     private BufferedReader reader;
     private PrintWriter writer;
 
+
     public Processor(Socket server) {
-        this.server = server;
+        this.socket = server;
         try {
-            InputStream inStream = this.server.getInputStream();
+            InputStream inStream = this.socket.getInputStream();
             reader = new BufferedReader(new InputStreamReader(inStream));
-            OutputStream outStream = this.server.getOutputStream();
+            OutputStream outStream = this.socket.getOutputStream();
             writer = new PrintWriter(outStream, true);
             Thread threadListener = new Thread(this);
             threadListener.start();
@@ -51,7 +52,7 @@ public class Processor implements Runnable{
             while ((s = reader.readLine()) != null) {
                 System.out.println(s);
             }
-            server.close();
+            socket.close();
         } catch (IOException e) {
             System.out.println("Error");
         }
