@@ -10,19 +10,22 @@ import java.net.Socket;
  * Time: 10:54
  * To change this template use File | Settings | File Templates.
  */
-public class Processor implements Runnable {
+public class Server implements Runnable {
     private Socket socket;
     private BufferedReader reader;
     private PrintWriter writer;
     private User user;
+    private ObjectOutputStream outputStream;
+    private ObjectInputStream inputStream;
 
-    public Processor(Socket client) {
+    public Server(Socket client) {
         this.socket = client;
         try {
             InputStream inStream = this.socket.getInputStream();
             reader = new BufferedReader(new InputStreamReader(inStream));
             OutputStream outStream = this.socket.getOutputStream();
             writer = new PrintWriter(outStream, true);
+            inputStream = new ObjectInputStream(socket.getInputStream());
             Thread threadListener = new Thread(this);
             threadListener.start();
         } catch (IOException e) {
@@ -34,10 +37,8 @@ public class Processor implements Runnable {
         receive();
     }
 
-    private void receive(){
-        while (socket.isConnected()){
+    private void receive() {
 
-        }
     }
 
     private void send() {
