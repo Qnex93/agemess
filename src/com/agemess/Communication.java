@@ -45,7 +45,7 @@ public class Communication {
             System.out.println("Waiting clients...");
             while (true) {
                 client = server.accept();
-                new Processor(client);
+                new Server(client);
                 System.out.println("Client is connected!");
             }
 

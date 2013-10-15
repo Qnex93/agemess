@@ -3,7 +3,6 @@ package com.agemess.client;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -34,7 +33,7 @@ public class Communication {
     public void run() {
         try {
             Socket server = new Socket(ip, port);
-            new Processor(server);
+            new Client(server);
             System.out.println("Connected to server.");
             isRunning = true;
         } catch (IOException e) {
