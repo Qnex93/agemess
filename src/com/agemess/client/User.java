@@ -1,20 +1,20 @@
 package com.agemess.client;
 
 public class User {
-    private int userId;
+    private String login;
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
 
 
     public enum Status{
         offline,
         busy,
         online
-    }
-
-    public int getUserId() {
-        return userId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
     }
 }

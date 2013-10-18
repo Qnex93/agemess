@@ -1,50 +1,53 @@
 package com.agemess.client;
 
-import java.io.*;
+import java.io.IOException;
+import java.net.InetAddress;
 import java.net.Socket;
-import java.util.Scanner;
-import com.agemess.Command;
-import com.agemess.CommandType;
 
 /**
  * Created with IntelliJ IDEA.
  * User: Qnex
  * Date: 10.10.13
- * Time: 23:09
+ * Time: 20:37
  * To change this template use File | Settings | File Templates.
  */
-public class Client implements Runnable {
-    private Socket socket;
-    private BufferedReader reader;
-    private PrintWriter writer;
-    private ObjectOutputStream outputStream;
+public class Client {
+    private int port;
+    private InetAddress ip;
+    private static Client instance;
+    private boolean isRunning;
+    private Socket server;
 
-
-    public Client(Socket server) {
-        this.socket = server;
-        try {
-            InputStream inStream = this.socket.getInputStream();
-            reader = new BufferedReader(new InputStreamReader(inStream));
-            OutputStream outStream = this.socket.getOutputStream();
-            writer = new PrintWriter(outStream, true);
-            outputStream = new ObjectOutputStream(socket.getOutputStream());
-            Thread threadListener = new Thread(this);
-            threadListener.start();
-        } catch (IOException e) {
-            System.out.println("Error");
+    public static Client create(InetAddress ip, int port) {
+        if (instance == null){
+            instance = new Client(ip, port);
         }
+        return instance;
+    }
+
+    private Client(InetAddress ip, int port) {
+        this.port = port;
+        this.ip = ip;
     }
 
     public void run() {
-        receive();
+        try {
+            Socket server = new Socket(ip, port);
+            new ServerManager(server);
+            System.out.println("Connected to server.");
+            isRunning = true;
+        } catch (IOException e) {
+            System.out.println("Error! Doesn't connect.");
+        }
     }
 
-    private void receive() {
-        Command cmd = new Command(CommandType.UserLogin, "Alex");
-
+    public boolean isRunning(){
+        return isRunning;
     }
 
-    private void send(String msg) {
-        writer.println(msg);
+    public boolean isCreated(){
+        return (instance != null);
     }
+
+
 }

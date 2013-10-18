@@ -1,7 +1,6 @@
 package com.agemess.client;
 
 import java.net.InetAddress;
-import java.net.UnknownHostException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -28,7 +27,7 @@ public class Program {
                 ip = InetAddress.getByName(args[0]);
                 port = Integer.parseInt(args[1]);
             }
-            Communication client = Communication.create(ip, port);
+            Client client = Client.create(ip, port);
             client.run();
         } catch (Exception e) {
             e.printStackTrace();
