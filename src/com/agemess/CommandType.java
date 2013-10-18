@@ -11,5 +11,14 @@ public enum CommandType {
     UserLogin,
     UserExit,
     Message,
-    ChangeStatus
+    ChangeStatus;
+
+    public static CommandType fromValue(int value) {
+        for (CommandType item : CommandType.values()) {
+            if (item.ordinal() == value) {
+                return item;
+            }
+        }
+        return null;
+    }
 }

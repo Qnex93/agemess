@@ -13,7 +13,6 @@ public class Command implements Serializable{
     private CommandType type;
     private String target;
     private String data;
-    private String senderIp;
     private String senderName;
 
     public Command(CommandType type, String target, String data) {
@@ -27,8 +26,6 @@ public class Command implements Serializable{
         this.target = target;
         this.data = "";
     }
-
-
 
 
     public CommandType getType() {
@@ -53,14 +50,6 @@ public class Command implements Serializable{
 
     public void setData(String data) {
         this.data = data;
-    }
-
-    public String getSenderIp() {
-        return senderIp;
-    }
-
-    public void setSenderIp(String senderIp) {
-        this.senderIp = senderIp;
     }
 
     public String getSenderName() {

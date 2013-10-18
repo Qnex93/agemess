@@ -9,19 +9,18 @@ package com.agemess;
  */
 public class Program {
     private static int port;
+    private static final int defaultPort = 777;
 
     public static void main(String[] args) throws Exception {
+        port = defaultPort;
         try {
-            if (args.length == 0) {
-                port = 777;
-            } else {
-                port = Integer.parseInt(args[1]);
+            if (args.length != 0) {
+                port = Integer.parseInt(args[0]);
             }
         } catch (NumberFormatException e) {
-            port = 777;
             System.out.println("The port number is set default, because impossible read the value.");
         }
-        Communication server = Communication.create(port);
+        Server server = Server.create(port);
         server.run();
     }
 }
