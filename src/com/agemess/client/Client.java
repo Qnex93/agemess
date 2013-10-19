@@ -38,7 +38,7 @@ public class Client implements Runnable {
             Thread threadListener = new Thread(this);
             threadListener.start();
             String msg = "This holiday season";
-            sendMsg(msg);
+            sendMsg(msg, "1");
             System.out.println("Connected to server.");
         } catch (IOException e) {
             System.out.println("Error! Doesn't connect.");
@@ -47,17 +47,34 @@ public class Client implements Runnable {
 
     private void receive() {
         try {
-            PrintWriter printWriter = new PrintWriter("cmd.txt");
             while (server.isConnected()) {
                 CommandType type = getType();
-                String target = getTarget();
+                String receiver = getReceiver();
+                String sender = getSender();
                 String data = getData();
-                printWriter.println(type + " " + target + " " + data );
-                printWriter.flush();
+                if ((type != null) && (receiver != null) && (sender != null)) {
+                    Command cmd = new Command(type, receiver, sender);
+                    cmd.setData(data);
+                    commandProcessing(cmd);
+                }
+                Thread.sleep(100);
             }
-        } catch (FileNotFoundException e) {}
+        } catch (InterruptedException e) {}
 
 
+    }
+
+    private void commandProcessing(Command cmd) {
+        switch (cmd.getType()) {
+            case Message:
+                showMessage(cmd.getReceiver(), cmd.getData());
+        }
+    }
+
+    private void showMessage(String receiver, Object data) {
+        System.out.println("***received a message***");
+        System.out.println("from: " + receiver);
+        System.out.println(data);
     }
 
     private CommandType getType() {
@@ -72,7 +89,15 @@ public class Client implements Runnable {
         }
     }
 
-    private String getTarget() {
+    private String getReceiver() {
+        try {
+            return reader.readLine();
+        } catch (IOException e) {
+            return null;
+        }
+    }
+
+    private String getSender() {
         try {
             return reader.readLine();
         } catch (IOException e) {
@@ -88,15 +113,17 @@ public class Client implements Runnable {
         }
     }
 
-    public void sendMsg(String msg) {
-        Command cmd = new Command(CommandType.Message, "Alex", msg);
+    public void sendMsg(String msg, String user) {
+        Command cmd = new Command(CommandType.Message, user, "Alex");
+        cmd.setData(msg);
         sendCommand(cmd);
 
     }
 
     public void sendCommand(Command cmd) {
         sendObject(cmd.getType().ordinal());
-        sendObject(cmd.getTarget());
+        sendObject(cmd.getReceiver());
+        sendObject(cmd.getSender());
         sendObject(cmd.getData());
     }
 
@@ -104,7 +131,16 @@ public class Client implements Runnable {
         writer.println(item);
         writer.flush();
     }
+
     public void run() {
         receive();
+    }
+
+    public void stop() {
+        try {
+            server.close();
+        } catch (IOException e) {
+            System.out.println("Doesn't stop client");
+        }
     }
 }
