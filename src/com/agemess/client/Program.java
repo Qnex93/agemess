@@ -12,23 +12,23 @@ import java.net.InetAddress;
 public class Program {
     static InetAddress ip;
     static int port;
+    static final int defaultPort = 777;
 
     public static void main(String[] args) {
         try {
+            port = defaultPort;
             if (args.length == 0) {
                 ip = InetAddress.getByName("127.0.0.1");
-                port = 777;
             }
             if (args.length == 1) {
                 ip = InetAddress.getByName(args[0]);
-                port = 777;
             }
             if (args.length == 2) {
                 ip = InetAddress.getByName(args[0]);
                 port = Integer.parseInt(args[1]);
             }
-            Client client = Client.create(ip, port);
-            client.run();
+            Client client = new Client(ip, port);
+            client.connect();
         } catch (Exception e) {
             e.printStackTrace();
         }
