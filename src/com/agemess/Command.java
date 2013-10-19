@@ -11,19 +11,19 @@ import java.io.Serializable;
  */
 public class Command implements Serializable{
     private CommandType type;
-    private String target;
-    private String data;
-    private String senderName;
+    private String receiver;
+    private Object data;
+    private String sender;
 
-    public Command(CommandType type, String target, String data) {
+    public Command(CommandType type, String receiver, String sender) {
         this.type = type;
-        this.target = target;
-        this.data = data;
+        this.receiver = receiver;
+        this.sender = sender;
     }
 
-    public Command(CommandType type, String target) {
+    public Command(CommandType type, String receiver) {
         this.type = type;
-        this.target = target;
+        this.receiver = receiver;
         this.data = "";
     }
 
@@ -36,27 +36,27 @@ public class Command implements Serializable{
         this.type = type;
     }
 
-    public String getTarget() {
-        return target;
+    public String getReceiver() {
+        return receiver;
     }
 
-    public void setTarget(String target) {
-        this.target = target;
+    public void setReceiver(String receiver) {
+        this.receiver = receiver;
     }
 
-    public String getData() {
+    public Object getData() {
         return data;
     }
 
-    public void setData(String data) {
+    public void setData(Object data) {
         this.data = data;
     }
 
-    public String getSenderName() {
-        return senderName;
+    public String getSender() {
+        return sender;
     }
 
-    public void setSenderName(String senderName) {
-        this.senderName = senderName;
+    public void setSender(String sender) {
+        this.sender = sender;
     }
 }
