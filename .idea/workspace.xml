@@ -1,38 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="agemess-client:jar" />
+      <artifact name="agemess-server:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list id="008688d6-d4bf-4ecd-a4d5-685048f70e98" name="Default" comment="" />
     <list default="true" id="d5ca816f-0286-41d9-bc43-0e9cc745fe30" name="Rejected commit: Default" comment="nothing useful:)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/agemess_client_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/agemess_server_jar.xml" />
+      <change type="DELETED" beforePath="C:\Users\Qnex\Desktop\agemess\ChartAch.uml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/client/Client.java" afterPath="$PROJECT_DIR$/src/com/agemess/client/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/Command.java" afterPath="$PROJECT_DIR$/src/com/agemess/Command.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/Connection.java" afterPath="$PROJECT_DIR$/src/com/agemess/Connection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/Server.java" afterPath="$PROJECT_DIR$/src/com/agemess/Server.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="agemess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381846444841" ignored="false" />
-    <file path="/Program.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381528856635" ignored="false" />
-    <file path="/fragment.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381831048950" ignored="false" />
-    <file path="/Server.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381845786175" ignored="false" />
+    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382177673706" ignored="false" />
+    <file path="/Program.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382176108837" ignored="false" />
+    <file path="/fragment.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381865442603" ignored="false" />
+    <file path="/Server.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382216655763" ignored="false" />
     <file path="/a.dummy" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381483489171" ignored="false" />
     <file path="/doServer.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1380639319350" ignored="false" />
     <file path="/RegistrationController.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1380643474460" ignored="false" />
     <file path="/UserManager.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1380707364079" ignored="false" />
-    <file path="/User.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1380656196088" ignored="false" />
+    <file path="/User.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382122499384" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/TCP/src/SmpleClient.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381065532840" ignored="false" />
     <file path="/SmpleClient.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381065532840" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/TCP/src/SempleClient.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381065964406" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/TCP/src/SmpleServer.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381065601663" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/TCPServer/src/SmpleServer.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381065828775" ignored="false" />
     <file path="/ThreadRunnable.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381236982485" ignored="false" />
-    <file path="/CommandType.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381423787077" ignored="false" />
-    <file path="/Communication.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381770533977" ignored="false" />
+    <file path="/CommandType.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382014277670" ignored="false" />
+    <file path="/Communication.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382087185452" ignored="false" />
     <file path="/Worker.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381429210215" ignored="false" />
     <file path="/ClientWorker.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381487177372" ignored="false" />
     <file path="/ServerWorker.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381483043713" ignored="false" />
     <file path="/Processor.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381834618350" ignored="false" />
-    <file path="/Command.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381837328140" ignored="false" />
+    <file path="/Command.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382198232120" ignored="false" />
     <file path="/InteractionInterface.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381770388817" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/TCP/src/Form.form" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381828680990" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/TCP/src/Form.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381828680990" ignored="false" />
-    <file path="/Client.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381845484934" ignored="false" />
+    <file path="/Client.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382209995158" ignored="false" />
+    <file path="/BitConverter.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381865646057" ignored="false" />
+    <file path="/ClientManager.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382124185840" ignored="false" />
+    <file path="/ServerManager.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382217061522" ignored="false" />
+    <file path="/Connection.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382217436375" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +70,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -89,6 +106,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -101,16 +119,7 @@
       <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/agemess/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="28" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="65" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.55378485">
+            <state line="29" column="65" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,19 +127,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectInputStream.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/io/ObjectInputStream.java">
+      <file leaf-file-name="Connection.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/agemess/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2593" column="24" selection-start="101765" selection-end="101765" vertical-scroll-proportion="0.0">
+            <state line="47" column="25" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.4113667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Command.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/agemess/Command.java">
+      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+            <state line="59" column="34" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,22 +168,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/agemess/client/Proccesor.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/Handler.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/client/User.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/UserManager.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/User.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/client/Communication.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/Communication.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/InteractionInterface.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/client/Program.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/client/Command.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/Program.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/Processor.java" />
         <option value="$PROJECT_DIR$/src/com/agemess/client/Processor.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/Communication.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/Program.java" />
+        <option value="$PROJECT_DIR$/cmd.txt" />
+        <option value="$PROJECT_DIR$/src/com/agemess/client/Communication.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/client/User.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/BitConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/client/ServerManager.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/client/Clinet.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/client/Program.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/ClientManager.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/CommandType.java" />
         <option value="$PROJECT_DIR$/src/com/agemess/Command.java" />
-        <option value="$PROJECT_DIR$/src/com/agemess/Server.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/Connection.java" />
         <option value="$PROJECT_DIR$/src/com/agemess/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/agemess/Server.java" />
       </list>
     </option>
   </component>
@@ -243,6 +252,20 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agemess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agemess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="agemess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -272,6 +295,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -282,13 +306,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="224" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="224" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="228" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
@@ -315,6 +340,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
@@ -329,7 +355,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.agemess-client">
+  <component name="RunManager" selected="Application.agemess-server">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -621,19 +647,44 @@
       <created>1381846441914</created>
       <updated>1381846441914</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add manifest for artifacts">
+      <created>1382124373722</created>
+      <updated>1382124373722</updated>
+    </task>
+    <task id="LOCAL-00032" summary="renamed class">
+      <created>1382124478563</created>
+      <updated>1382124478563</updated>
+    </task>
+    <task id="LOCAL-00033" summary="little changes in server">
+      <created>1382124515344</created>
+      <updated>1382124515344</updated>
+    </task>
+    <task id="LOCAL-00034" summary="little changes in client">
+      <created>1382124538664</created>
+      <updated>1382124538664</updated>
+    </task>
+    <task id="LOCAL-00035" summary="renamed from ServerManager">
+      <created>1382177672402</created>
+      <updated>1382177672402</updated>
+    </task>
+    <task id="LOCAL-00036" summary="nothing useful:)">
+      <created>1382177701662</created>
+      <updated>1382177701662</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="1" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767624" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3093995" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3093995" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -646,11 +697,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15625" sideWeight="0.6906005" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3342246" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="263" height="378" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767624" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -711,7 +763,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Create main method" />
     <MESSAGE value="Change settings" />
     <MESSAGE value="add attribute to diagram" />
     <MESSAGE value="Create Server class" />
@@ -731,6 +782,11 @@
     <MESSAGE value="Changes Command class (client and server). added implementation Serializable interface" />
     <MESSAGE value="Drop classes" />
     <MESSAGE value="renames from Processor" />
+    <MESSAGE value="add manifest for artifacts" />
+    <MESSAGE value="renamed class" />
+    <MESSAGE value="little changes in server" />
+    <MESSAGE value="little changes in client" />
+    <MESSAGE value="renamed from ServerManager" />
     <MESSAGE value="nothing useful:)" />
   </component>
   <component name="XDebuggerManager">
@@ -745,116 +801,209 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/agemess/UserManager.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/net/SocketInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+        <state line="93" column="23" selection-start="2310" selection-end="2310" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/agemess/client/User.java">
+    <entry file="file://$PROJECT_DIR$/cmd.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/agemess/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="65" selection-end="65" vertical-scroll-proportion="0.06495264">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/agemess/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="20" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+        <state line="17" column="46" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/agemess/Communication.java">
+    <entry file="file://$PROJECT_DIR$/src/com/agemess/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="32" selection-start="1526" selection-end="1541" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/com/agemess/client/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="17" selection-start="908" selection-end="916" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.108254395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/agemess/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/rt.jar!/java/lang/Enum.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doServer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entities.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/agemess/CommandType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="210" selection-end="210" vertical-scroll-proportion="0.3187251">
+        <state line="15" column="33" selection-start="293" selection-end="293" vertical-scroll-proportion="0.32476318">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Communication.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/net/DualStackPlainSocketImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="23" selection-start="893" selection-end="893" vertical-scroll-proportion="0.4803789">
+        <state line="281" column="22" selection-start="8066" selection-end="8066" vertical-scroll-proportion="0.33266932">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/net/SocketInputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="36" selection-start="758" selection-end="758" vertical-scroll-proportion="0.33266932" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/net/SocketOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="0" selection-start="2769" selection-end="2769" vertical-scroll-proportion="0.33266932" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="723" column="0" selection-start="26932" selection-end="26932" vertical-scroll-proportion="0.0">
+        <state line="29" column="49" selection-start="825" selection-end="825" vertical-scroll-proportion="0.6278755">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/agemess/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/io/ObjectInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2593" column="24" selection-start="101765" selection-end="101765" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/io/ObjectOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="349" column="0" selection-start="14870" selection-end="14870" vertical-scroll-proportion="0.33266932">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/agemess/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="28" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0">
+        <state line="27" column="5" selection-start="674" selection-end="674" vertical-scroll-proportion="0.58457375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/agemess/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="65" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.55378485">
+        <state line="59" column="34" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/agemess/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="65" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/agemess/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="25" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.4113667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>agemess-client:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>agemess</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
