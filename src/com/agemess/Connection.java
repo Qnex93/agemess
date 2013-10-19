@@ -10,17 +10,14 @@ import java.net.Socket;
  * Time: 10:54
  * To change this template use File | Settings | File Templates.
  */
-public class ClientManager implements Runnable {
+public class Connection implements Runnable {
     private Socket socket;
     private BufferedReader reader;
     private PrintWriter writer;
     private User user;
-    private ObjectOutputStream outputStream;
-    private ObjectInputStream inputStream;
-    private DataInputStream dataInputStream;
     private Server server;
 
-    public ClientManager(Socket client, Server server) {
+    public Connection(Socket client, Server server) {
         this.socket = client;
         this.server = server;
         try {
@@ -28,12 +25,10 @@ public class ClientManager implements Runnable {
             reader = new BufferedReader(new InputStreamReader(inStream));
             OutputStream outStream = this.socket.getOutputStream();
             writer = new PrintWriter(outStream, true);
-            inputStream = new ObjectInputStream(socket.getInputStream());
-            dataInputStream = new DataInputStream(socket.getInputStream());
             Thread threadListener = new Thread(this);
             threadListener.start();
         } catch (IOException e) {
-            System.out.println("Error");
+            System.out.println("Connecion is not established");
         }
     }
 

@@ -1,13 +1,9 @@
 package com.agemess;
 
 import java.io.IOException;
-import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.net.UnknownHostException;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 
 /**
@@ -23,11 +19,11 @@ public class Server {
     private int port;
     private ServerSocket server;
     private Socket client;
-    private List<ClientManager> managers;
+    private HashMap<String, Connection> managers;
 
     private Server(int port) {
         this.port = port;
-        managers = new ArrayList<ClientManager>();
+        managers = new HashMap<String, Connection>();
     }
 
     public static Server create(int port) {
@@ -52,7 +48,7 @@ public class Server {
             while (true) {
                 client = server.accept();
                 System.out.println("Client is connected!");
-                managers.add(new ClientManager(client, this));
+                managers.put("user", new Connection(client, this));
             }
 
         } catch (Exception e) {
@@ -63,7 +59,7 @@ public class Server {
     }
 
     public synchronized void changeThread(Command cmd) {
-        ClientManager manager = managers.get(0);
+        Connection manager = managers.get("user");
         manager.sendCommand(cmd);
     }
 
