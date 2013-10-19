@@ -8,20 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list id="008688d6-d4bf-4ecd-a4d5-685048f70e98" name="Default" comment="" />
-    <list default="true" id="d5ca816f-0286-41d9-bc43-0e9cc745fe30" name="Rejected commit: Default" comment="nothing useful:)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/agemess_client_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/agemess_server_jar.xml" />
+    <list default="true" id="d5ca816f-0286-41d9-bc43-0e9cc745fe30" name="Rejected commit: Default" comment="add login method">
       <change type="DELETED" beforePath="C:\Users\Qnex\Desktop\agemess\ChartAch.uml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/client/Client.java" afterPath="$PROJECT_DIR$/src/com/agemess/client/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/Command.java" afterPath="$PROJECT_DIR$/src/com/agemess/Command.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/Connection.java" afterPath="$PROJECT_DIR$/src/com/agemess/Connection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/agemess/Server.java" afterPath="$PROJECT_DIR$/src/com/agemess/Server.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="agemess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382177673706" ignored="false" />
+    <file path="/Dummy.txt" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382218529445" ignored="false" />
     <file path="/Program.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382176108837" ignored="false" />
     <file path="/fragment.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1381865442603" ignored="false" />
     <file path="/Server.java" changelist="d5ca816f-0286-41d9-bc43-0e9cc745fe30" time="1382216655763" ignored="false" />
@@ -130,7 +124,7 @@
       <file leaf-file-name="Connection.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/agemess/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="25" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.4113667">
+            <state line="47" column="25" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.62422997">
               <folding />
             </state>
           </provider>
@@ -671,7 +665,23 @@
       <created>1382177701662</created>
       <updated>1382177701662</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="nothing useful:)">
+      <created>1382218256883</created>
+      <updated>1382218256883</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add commandProcessing method and sleep in loop">
+      <created>1382218367363</created>
+      <updated>1382218367363</updated>
+    </task>
+    <task id="LOCAL-00039" summary="made some changes in the class">
+      <created>1382218464783</created>
+      <updated>1382218464783</updated>
+    </task>
+    <task id="LOCAL-00040" summary="nothing useful:)">
+      <created>1382218503513</created>
+      <updated>1382218503513</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -690,7 +700,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32898173" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -698,7 +708,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15625" sideWeight="0.6906005" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15625" sideWeight="0.6710183" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3342246" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="263" height="378" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -749,7 +759,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="nothing useful:)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add login method" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -763,9 +773,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Change settings" />
-    <MESSAGE value="add attribute to diagram" />
-    <MESSAGE value="Create Server class" />
     <MESSAGE value="change methods of Server class&#10;" />
     <MESSAGE value="add authorization&#10;" />
     <MESSAGE value="delete test variable" />
@@ -787,7 +794,10 @@
     <MESSAGE value="little changes in server" />
     <MESSAGE value="little changes in client" />
     <MESSAGE value="renamed from ServerManager" />
+    <MESSAGE value="add commandProcessing method and sleep in loop" />
+    <MESSAGE value="made some changes in the class" />
     <MESSAGE value="nothing useful:)" />
+    <MESSAGE value="add login method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -910,7 +920,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/agemess/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="25" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.4113667">
+        <state line="47" column="25" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.62422997">
           <folding />
         </state>
       </provider>

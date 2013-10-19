@@ -33,27 +33,55 @@ public class Connection implements Runnable {
     }
 
     private void receive() {
-        while (socket.isConnected()) {
-            CommandType type = getType();
-            String target = getTarget();
-            String data = getData();
-            if ((type != null) && (target != null) && (data != null)) {
-                Command cmd = new Command(type, target, data);
-                server.changeThread(cmd);
+        try {
+            while (socket.isConnected()) {
+                CommandType type = getType();
+                String receiver = getReceiver();
+                String sender = getSender();
+                String data = getData();
+                System.out.println(socket.toString());
+                if ((type != null) && (receiver != null) && (sender != null)) {
+                    Command cmd = new Command(type, receiver, sender);
+                    cmd.setData(data);
+                    commandProcessing(cmd);
+                }
+                Thread.sleep(100);
             }
-        }
+        } catch (InterruptedException e) {}
     }
 
+    private void login(Command cmd) {
+        user = new User();
+    }
+
+    private boolean isLogin() {
+        return true;
+    }
 
     public void sendCommand(Command cmd) {
         sendObj(cmd.getType().ordinal());
-        sendObj(cmd.getTarget());
+        sendObj(cmd.getReceiver());
+        sendObj(cmd.getSender());
         sendObj(cmd.getData());
     }
+
 
     private void sendObj(Object item) {
         writer.println(item);
         writer.flush();
+    }
+
+    private void commandProcessing(Command cmd) {
+        switch (cmd.getType()) {
+            case UserLogin:
+                login(cmd);
+            case Message:
+                if (isLogin())
+                    server.changeConnection(cmd);
+            case UserExit:
+                close();
+
+        }
     }
 
 
@@ -69,7 +97,7 @@ public class Connection implements Runnable {
         }
     }
 
-    private String getTarget() {
+    private String getReceiver() {
         try {
             return reader.readLine();
         } catch (IOException e) {
@@ -85,6 +113,25 @@ public class Connection implements Runnable {
         }
     }
 
+    private String getSender() {
+        try {
+            return reader.readLine();
+        } catch (IOException e) {
+            return null;
+        }
+    }
+
+    private void close() {
+        try {
+            if (socket.isConnected()) {
+                socket.shutdownOutput();
+                socket.shutdownInput();
+                socket.close();
+            }
+        } catch (IOException e) {
+            System.out.println("Doesn't not close connection");
+        }
+    }
 
     public void run() {
         receive();
