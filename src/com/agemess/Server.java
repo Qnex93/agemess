@@ -19,11 +19,11 @@ public class Server {
     private int port;
     private ServerSocket server;
     private Socket client;
-    private HashMap<String, Connection> managers;
+    private HashMap<String, Connection> connection;
 
     private Server(int port) {
         this.port = port;
-        managers = new HashMap<String, Connection>();
+        connection = new HashMap<String, Connection>();
     }
 
     public static Server create(int port) {
@@ -39,27 +39,27 @@ public class Server {
         }
     }
 
-    private void listen() throws IOException {
+    private void listen() {
         try {
             server = new ServerSocket(port);
             isRunning = true;
             System.out.println("Server is start!");
             System.out.println("Waiting clients...");
-            while (true) {
+            while (isRunning) {
                 client = server.accept();
                 System.out.println("Client is connected!");
-                managers.put("user", new Connection(client, this));
+                String notLoginUser = client.toString();
+                connection.put("1", new Connection(client, this));
             }
-
         } catch (Exception e) {
             System.out.println(e.toString());
         } finally {
-            closeConnection();
+            stop();
         }
     }
 
-    public synchronized void changeThread(Command cmd) {
-        Connection manager = managers.get("user");
+    public synchronized void changeConnection(Command cmd) {
+        Connection manager = connection.get(cmd.getReceiver());
         manager.sendCommand(cmd);
     }
 
@@ -71,9 +71,14 @@ public class Server {
         return (instance != null);
     }
 
-    private void closeConnection() throws IOException {
-        server.close();
-        client.close();
+    private void stop()  {
+        isRunning = false;
+        try {
+            server.close();
+            client.close();
+        } catch (IOException e) {
+            System.out.println("Doesn't not stop server");
+        }
     }
 
 
